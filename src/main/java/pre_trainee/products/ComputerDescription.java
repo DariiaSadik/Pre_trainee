@@ -86,25 +86,3 @@ public class ComputerDescription extends AbstractProductDescription {
 }
 
 
-//    public static void main(String[] args) {
-//        Map<String, String> map = new HashMap<String, String>();
-//        map.put("1", "1");
-//        map.put("2", "1");
-//        map.put("3", "1");
-//        map.put("4", "1");
-//        map.put("5", "1");
-//        ComputerDescription computerDescription = new ComputerDescription("", "$121.3", map);
-//        Map<String, String> map1 = new HashMap<String, String>();
-//        map.put("1", "1");
-//        map.put("2", "1");
-//        map.put("3", "1");
-//        map.put("4", "1");
-//        map.put("5", "1");
-//        ComputerDescription computerDescription1 = new ComputerDescription("", "$12221.3", map1);
-//        System.out.println(avgCost());
-//        System.out.println(computerDescription.getPrice());
-//        System.out.println(getCount());
-//        System.out.println(getCost());
-//    }
-//}
-

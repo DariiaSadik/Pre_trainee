@@ -92,15 +92,4 @@ public class BookDescription extends AbstractProductDescription {
                 "genre: " + genre + "\n" + "countPage - " + countPage;
     }
 }
-//
-//    public static void main(String[] args) {
-//        BookDescription bookDescription = new BookDescription("1", "$33", "1", "1", 111);
-//        BookDescription bookDescription2 = new BookDescription("1", "$33", "1", "1", 111);
-//        BookDescription bookDescription3 = new BookDescription("1", "$33", "1", "1", 111);
-//        BookDescription bookDescription4 = new BookDescription("1", "$33", "1", "1", 111);
-//        BookDescription bookDescription5 = new BookDescription("1", "$33", "1", "1", 111);
-//        System.out.println(avgCost());
-//        System.out.println(getCost());
-//        System.out.println(getCount());
-//    }
-//}
+
