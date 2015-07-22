@@ -46,6 +46,7 @@ public class WriteIntoFile {
             computerDescription.setCharacteristics(characteristics);
 
             add(computerDescription);
+            System.out.println(computerDescription.avgCost());
 
         } else  if (type.equals("Book")){
             String author;
@@ -72,6 +73,7 @@ public class WriteIntoFile {
             bookDescription.setGenre(genre);
             bookDescription.setCountPage(countPage);
             add(bookDescription);
+            System.out.println(bookDescription.avgCost());
         } else throw new ProductTypeException("You cannot write information about this product type!");
     }
 

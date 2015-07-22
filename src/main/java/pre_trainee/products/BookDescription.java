@@ -89,7 +89,7 @@ public class BookDescription extends AbstractProductDescription {
         return "\n________________________________________________________________\n" +
                 "The store contains information about book " + getProductName() +
                 ". Price = " + getPrice() + "; \n" + "author: " + author + "\n" +
-                "genre: " + genre + "\n" + "countPage - " + countPage;
+                "genre: " + genre + "\n" + "countPage - " + countPage + "avg = " + avgCost();
     }
 }
 
