@@ -100,5 +100,9 @@ public class WriteIntoFile {
         writeIntoFile.printNew();
         writeIntoFile.sorted();
         writeIntoFile.printNew();
+
+        System.out.println("find product information");
+        new ContainerProducts().getProduct(scanner.nextInt());
+
     }
 }
